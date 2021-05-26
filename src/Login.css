@@ -1,0 +1,93 @@
+.logincontainer {
+  width: 900px;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+
+.infopane {
+  padding: 40px;
+  width: 50vw;
+  background-color: #0099ff;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.infoheader {
+  color: white;
+}
+
+.infotext {
+  color: white;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  height: 42px;
+  padding: 10px 14px;
+  font-weight: bold;
+  font-size: inherit;
+}
+
+.btn1 {
+  background-color: white;
+}
+
+.btn2 {
+  background-color: #0099ff;
+  margin-top: +20px;
+  color: white;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.funkyshape {
+  padding: 14px, 20px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.loginform {
+  padding: 40px;
+  width: 50vw;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.formheader {
+  color: #0099ff;
+}
+
+.rowinput {
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  height: 32px;
+  border: slategray;
+  border-width: 1px;
+  border-style: solid;
+}
+
+input,
+label {
+  display: block;
+  margin: 5px 5px 5px 0;
+}
+
+.checkbox {
+  display: inline-block;
+  height: 12px;
+  margin: 5px 5px 5px 0;
+}
+
+label {
+  font-weight: bold;
+  color: slategray;
+}
